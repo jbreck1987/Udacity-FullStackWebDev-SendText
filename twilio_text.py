@@ -1,8 +1,8 @@
 from twilio.rest import Client
 import time
 
-auth_token = '034050e5dfdd7a77ad5adeb91f3dcc77'
-acct_SID = 'AC68700b29508ba3e1f3e7c06c6ae52e02'
+auth_token = 'MY_AUTH_TOKEN'
+acct_SID = 'MY_ACCT_SID'
 
 print('Sending a text...')
 time.sleep(3)
