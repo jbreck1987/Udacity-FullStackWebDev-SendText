@@ -9,8 +9,8 @@ time.sleep(3)
 
 newClient = Client(username=acct_SID, password=auth_token)
 new_message = newClient.messages.create(
-    to="+15137800683",
-    from_="+15132823803",
+    to="YOUR_NUMBER",
+    from_="MY_NUMBER",
     body="Yo, this is an app texting your phone!"
 )
 
